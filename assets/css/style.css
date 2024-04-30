@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+.container{
+    width: 98%;
+    margin: auto;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  .table-design{
+    margin-top: 200px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid rgb(34, 34, 58);
+  }
+  .header{
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mybtn{
+    padding: 5px 30px;
+    border-radius: 15px 0 15px;
+    border: none;
+    background: greenyellow;
+    margin: 5px 0;
+  }
+  .image-preview {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 10px;
+    z-index: 99;
+  }
+  .image-preview img{
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    z-index: 100;
+  }
+  .over{
+    z-index: -100;
+  }
+  .btn-color-yellow{
+    background: rgb(72, 123, 182);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .btn-color-red{
+    background: red;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  thead, tbody, tfoot, tr, td, th {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    text-align: center;
+}
